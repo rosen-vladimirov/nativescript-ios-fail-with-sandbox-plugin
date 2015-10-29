@@ -1,6 +1,6 @@
 # nativescript-ios-fail-with-sandbox-plugin
 Plugin used for testing sandbox-pod and pod support in nativescript-cli.
-This plugin will try to create file called `I_MADE_THIS_FILE.txt` on two places - where the project is created
+This plugin will try to create file called `I_MADE_THIS_FILE.txt` in `<project_name>/platforms` directory.
 
 ## How to use
 
