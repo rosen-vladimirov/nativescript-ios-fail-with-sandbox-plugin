@@ -1,4 +1,4 @@
-# nativescript-ios-fail-with-sandbox-plugin
+# ios-fail-with-sandbox-plugin
 Plugin used for testing sandbox-pod and pod support in nativescript-cli.
 This plugin will try to create file called `I_MADE_THIS_FILE.txt` in `<project_name>/platforms` directory.
 
@@ -7,7 +7,7 @@ This plugin will try to create file called `I_MADE_THIS_FILE.txt` in `<project_n
 ### NativeScript CLI:
 In your project execute:
 ```
-$ tns plugin add https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/tarball/master
+$ tns plugin add ios-fail-with-sandbox-plugin
 ```
 
 or add the following entry in your `package.json`
@@ -15,7 +15,7 @@ or add the following entry in your `package.json`
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-fail-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/tarball/master"
+	"ios-fail-with-sandbox-plugin": "1.0.0"
 }
 ```
 
@@ -25,14 +25,14 @@ Add the following entry in your `package.json`
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-fail-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/tarball/master"
+	"ios-fail-with-sandbox-plugin": "1.0.0"
 }
 ```
 
 ### AppBuilder CLI
 In your project execute:
 ```
-$ appbuilder plugin add https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/tarball/master
+$ appbuilder plugin add ios-fail-with-sandbox-plugin
 ```
 
 or add the following entry in your `package.json`
@@ -40,7 +40,7 @@ or add the following entry in your `package.json`
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-fail-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/tarball/master"
+	"ios-fail-with-sandbox-plugin": "1.0.0"
 }
 ```
 
