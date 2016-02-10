@@ -1,6 +1,6 @@
 {
   "name": "ios-fail-with-sandbox-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin used for testing sandbox-pod.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,13 @@
     "pod"
   ],
   "author": "Rosen Vladimirov",
+  "contributors": [{
+	  "name": "rosen-vladimirov",
+	  "email": "rosen.vladimirov.91@gmail.com"
+  }, {
+	  "name": "kerezov",
+	  "email": "d.kerezov@gmail.com"
+  }],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/rosen-vladimirov/nativescript-ios-fail-with-sandbox-plugin/issues"
